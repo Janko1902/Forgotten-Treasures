@@ -21,7 +21,7 @@ body:
      label: Why this way
      description: Optionaly explain why this way or method is better/more suitable than others.
    validations:
-     required: true
+     required: false
 
      
 
