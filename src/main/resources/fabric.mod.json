@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "forgotten_treasures",
+	"version": "${version}",
+	"name": "Forgotten Treasures",
+	"description": "",
+	"authors": [
+		"Janko",
+		"cardiza"
+	],
+	"contact": {
+		"homepage": "https://github.com/Janko1902/Forgotten-Treasures",
+		"sources": "https://github.com/Janko1902/Forgotten-Treasures"
+	},
+	"license": "MIT",
+	"icon": "assets/forgotten-treasures/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.janko.forgotten_treasures.ForgottenTreasures"
+		],
+		"client": [
+			"com.janko.forgotten_treasures.ForgottenTreasuresClient"
+		],
+		"fabric-datagen": [
+			"com.janko.forgotten_treasures.ForgottenTreasuresDataGenerator"
+		]
+	},
+	"mixins": [
+		"forgotten_treasures.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
