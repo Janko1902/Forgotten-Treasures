@@ -1,7 +1,5 @@
-name: Bug report
-description: Report some misbehaviour in the mod
-labels: [ bug ]
-type: bug
+name: Generic issue
+description: Generic issue template
 body:
  - type: input
    id: description
