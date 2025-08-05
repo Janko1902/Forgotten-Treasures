@@ -14,6 +14,7 @@ public class ModLangProvider extends FabricLanguageProvider {
 
     @Override
     public void generateTranslations(RegistryWrapper.WrapperLookup wrapperLookup, TranslationBuilder translationBuilder) {
+        translationBuilder.add("itemgroup.forgotten_treasures", "Forgotten Treasures");
         translationBuilder.add("when_equipped.tooltip", "When equipped:");
 
         translationBuilder.add(ModItems.DIVING_HELMET, "Diving Helmet");

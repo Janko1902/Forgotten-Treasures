@@ -1,5 +1,6 @@
 package com.janko.forgotten_treasures;
 
+import com.janko.forgotten_treasures.item.ModItemGroups;
 import com.janko.forgotten_treasures.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -19,5 +20,6 @@ public class ForgottenTreasures implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModItemGroups.registerItemGroups();
 	}
 }
