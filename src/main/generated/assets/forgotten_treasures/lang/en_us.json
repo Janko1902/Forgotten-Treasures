@@ -1,3 +1,6 @@
 {
-  "item.forgotten_treasures.diving_helmet": "Diving Helmet"
+  "diving_helmet.tooltip_1": "When equipped:",
+  "diving_helmet.tooltip_2": "Infinite Water Breathing",
+  "item.forgotten_treasures.diving_helmet": "Diving Helmet",
+  "item.forgotten_treasures.sneakers": "Sneakers"
 }

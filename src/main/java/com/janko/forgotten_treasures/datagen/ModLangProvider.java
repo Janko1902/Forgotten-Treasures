@@ -15,5 +15,9 @@ public class ModLangProvider extends FabricLanguageProvider {
     @Override
     public void generateTranslations(RegistryWrapper.WrapperLookup wrapperLookup, TranslationBuilder translationBuilder) {
         translationBuilder.add(ModItems.DIVING_HELMET, "Diving Helmet");
+        translationBuilder.add("diving_helmet.tooltip_1", "When equipped:");
+        translationBuilder.add("diving_helmet.tooltip_2", "Infinite Water Breathing");
+
+        translationBuilder.add(ModItems.SNEAKERS, "Sneakers");
     }
 }

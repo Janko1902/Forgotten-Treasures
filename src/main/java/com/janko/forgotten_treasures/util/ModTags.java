@@ -10,6 +10,8 @@ public class ModTags {
     public static class Items {
         public static final TagKey<Item> HAT = createTag("head/hat");
 
+        public static final TagKey<Item> SHOES = createTag("feet/shoes");
+
         private static TagKey<Item> createTag(String name) {
             return TagKey.of(RegistryKeys.ITEM, Identifier.of(ForgottenTreasures.MOD_ID, name));
         }

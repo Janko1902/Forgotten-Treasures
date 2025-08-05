@@ -17,5 +17,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
         getOrCreateTagBuilder(ModTags.Items.HAT)
                 .add(ModItems.DIVING_HELMET);
+
+        getOrCreateTagBuilder(ModTags.Items.SHOES)
+                .add(ModItems.SNEAKERS);
     }
 }
