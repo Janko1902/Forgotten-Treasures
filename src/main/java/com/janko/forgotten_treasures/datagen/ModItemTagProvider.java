@@ -22,6 +22,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.NIGHT_VISION_GOGGLES);
 
         getOrCreateTagBuilder(ModTags.Items.SHOES)
-                .add(ModItems.SNEAKERS);
+                .add(ModItems.SNEAKERS)
+                .add(ModItems.DIVING_FINS);
     }
 }

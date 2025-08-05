@@ -24,5 +24,6 @@ public class ModLangProvider extends FabricLanguageProvider {
 
 
         translationBuilder.add(ModItems.SNEAKERS, "Sneakers");
+        translationBuilder.add(ModItems.DIVING_FINS, "Diving Fins");
     }
 }

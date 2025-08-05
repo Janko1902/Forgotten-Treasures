@@ -14,7 +14,7 @@ import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.util.Identifier;
 import net.minecraft.world.World;
 
-public class NightVisionGogglesItem extends TreasureItem{
+public class NightVisionGogglesItem extends TreasureItem {
     public NightVisionGogglesItem(Settings settings) {
         super(settings);
     }

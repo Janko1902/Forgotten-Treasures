@@ -11,14 +11,14 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.util.Identifier;
 
-public class SneakersItem extends TreasureItem {
-    public SneakersItem(Settings settings) {
+public class DivingFins extends TreasureItem {
+    public DivingFins(Settings settings) {
         super(settings);
     }
 
     public Multimap<RegistryEntry<EntityAttribute>, EntityAttributeModifier> getModifiers(ItemStack stack, SlotReference slot, LivingEntity entity, Identifier identifier) {
         var modifiers = super.getModifiers(stack, slot, entity, identifier);
-        modifiers.put(EntityAttributes.GENERIC_MOVEMENT_SPEED, new EntityAttributeModifier(ForgottenTreasures.ID("generic_movement_speed"), 0.2, EntityAttributeModifier.Operation.ADD_MULTIPLIED_TOTAL));
+        modifiers.put(EntityAttributes.GENERIC_WATER_MOVEMENT_EFFICIENCY, new EntityAttributeModifier(ForgottenTreasures.ID("generic_water_movement_efficiency"), 0.5, EntityAttributeModifier.Operation.ADD_MULTIPLIED_TOTAL));
         return modifiers;
     }
 }
