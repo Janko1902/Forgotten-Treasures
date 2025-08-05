@@ -15,8 +15,14 @@ public class ForgottenTreasuresClient implements ClientModInitializer {
         ItemTooltipCallback.EVENT.register((stack, context, type, lines) -> {
             if (stack.getItem() == ModItems.DIVING_HELMET) {
                 List<Text> lore = List.of(
-                        Text.translatable("diving_helmet.tooltip_1").formatted(Formatting.GRAY),
-                        Text.translatable("diving_helmet.tooltip_2").formatted(Formatting.BLUE)
+                        Text.translatable("when_equipped.tooltip").formatted(Formatting.GRAY),
+                        Text.translatable("diving_helmet.tooltip").formatted(Formatting.BLUE)
+                );
+                TooltipUtil.insertAboveItemId(stack, lines, lore);
+            } else if (stack.getItem() == ModItems.NIGHT_VISION_GOGGLES) {
+                List<Text> lore = List.of(
+                        Text.translatable("when_equipped.tooltip").formatted(Formatting.GRAY),
+                        Text.translatable("night_vision_goggles.tooltip").formatted(Formatting.BLUE)
                 );
                 TooltipUtil.insertAboveItemId(stack, lines, lore);
             }

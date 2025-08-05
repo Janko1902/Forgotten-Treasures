@@ -9,6 +9,7 @@ import net.minecraft.util.Identifier;
 public class ModTags {
     public static class Items {
         public static final TagKey<Item> HAT = createTag("head/hat");
+        public static final TagKey<Item> FACE = createTag("head/face");
 
         public static final TagKey<Item> SHOES = createTag("feet/shoes");
 

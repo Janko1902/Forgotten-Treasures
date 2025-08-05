@@ -18,6 +18,9 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ModTags.Items.HAT)
                 .add(ModItems.DIVING_HELMET);
 
+        getOrCreateTagBuilder(ModTags.Items.FACE)
+                .add(ModItems.NIGHT_VISION_GOGGLES);
+
         getOrCreateTagBuilder(ModTags.Items.SHOES)
                 .add(ModItems.SNEAKERS);
     }
