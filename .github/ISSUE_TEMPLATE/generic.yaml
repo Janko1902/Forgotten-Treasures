@@ -1,0 +1,29 @@
+name: Generic issue
+description: Generic issue template
+body:
+ - type: textarea
+   id: description
+   attributes:
+      label: Description
+      description: Briefly explain the context or problem.
+   validations:
+      required: true
+ - type: textarea
+   id: goal
+   attributes:
+      label: Goal
+      description: Define what should be accomplished.
+   validations:
+      required: true
+ - type: textarea
+   id: reasoning
+   attributes:
+     label: Why this way
+     description: Optionaly explain why this way or method is better/more suitable than others.
+   validations:
+     required: false
+
+     
+
+
+
