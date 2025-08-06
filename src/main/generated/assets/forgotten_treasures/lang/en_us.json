@@ -1,0 +1,10 @@
+{
+  "diving_helmet.tooltip": "Infinite Water Breathing",
+  "item.forgotten_treasures.diving_fins": "Diving Fins",
+  "item.forgotten_treasures.diving_helmet": "Diving Helmet",
+  "item.forgotten_treasures.night_vision_goggles": "Night Vision Goggles",
+  "item.forgotten_treasures.sneakers": "Sneakers",
+  "itemgroup.forgotten_treasures": "Forgotten Treasures",
+  "night_vision_goggles.tooltip": "Infinite Night Vision",
+  "when_equipped.tooltip": "When equipped:"
+}
