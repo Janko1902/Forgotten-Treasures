@@ -1,20 +1,3 @@
-
-# Issues
-
-When creating an issue, we will follow this format:
-
-**A meaningful and descriptive title**
-
-The description will have two sections:
-
-* **Description** – Briefly explain the context or problem.
-* **Goal** – Define what should be accomplished.
-
-You can follow this example:
-[https://github.com/Janko1902/Forgotten-Treasures/issues/1](https://github.com/Janko1902/Forgotten-Treasures/issues/1)
-
-
-
 # Branches and PRs
 
 When creating branches, we will follow the generic naming convention:
